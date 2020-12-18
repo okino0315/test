@@ -1,0 +1,183 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.header{
+    font-family: serif;
+    color:#ffffff ;
+    background-color: #333;
+    margin-top: 100px;
+    margin-left: 100px;
+    width:1000px;
+    height: 90px;
+    border:solid 3px #000;
+    
+}
+
+
+   
+.header-list{
+    padding:10px ;
+    
+}
+
+.header-list li{
+    text-align:center;
+    width:24%;
+    padding:0 ;
+    font-size: 36px;
+    float:left;
+    list-style: none;
+}
+
+.header-list li+li{
+    border-left:1px solid #ffffff;
+}
+
+.main{
+    padding: 20px 100px ;
+    height:1500px;
+
+}
+
+.amakuti{
+    width:900px;
+    border:solid 1px;
+}
+
+
+
+.menu p{
+    display:inline-block;
+    color:black;
+    vertical-align: middle;
+    padding:10px;
+}
+
+
+
+.karakuti{
+    margin-top: 10px;
+    width:900px;
+    border:solid 1px;
+}
+
+
+
+.otumami{
+    margin-top: 10px;
+    width:900px;
+    border:solid 1px;
+    height:150px;
+}
+
+.otumami h1{
+    padding: 30px;
+}
+
+
+.footer{
+    padding:150px;
+    height: 270px;
+}
+
+.footer-logo{
+    font-size: 40px;
+}
+
+.footer-list{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+}
+
+.menu h1{
+    color:black;
+}
+
+
+.amakuti2 h1{
+    clear:left;
+    padding-left:150px ;
+}
+
+.amakutigazou{
+   
+    padding-left: 150px;
+    float: left;
+}
+
+.amakutiinfo{
+    float: left;
+}
+
+.amakutiinfo li{
+    padding:15px;
+}
+
+.amazon{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: orange;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.521);
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom:20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.amazon:hover{
+    opacity: 0.8;
+}
+
+
+
+
+.karakuti2 h1{
+    padding-left: 150px;
+    clear:left;
+}
+
+.karakutigazou{
+    float:left;
+    padding-left: 150px;
+}
+
+.karakutiinfo{
+    float:left;
+}
+
+.karakutiinfo li{
+    padding:15px;
+}
+
+.otumami2 h1{
+    clear:left;
+}
+
+.otumami-menu{
+    float: left;
+}
+
+.otumamiinfo{
+    float: left;
+    padding:50px;
+}
+
+.otumamiinfo li{
+    padding:10px;
+}
