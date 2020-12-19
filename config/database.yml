@@ -22,8 +22,8 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV['powerful-depths-28120 Config Vars']
+  url: <%= ENV['powerful-depths-28120 Config Vars']%>
   database: db/production.sqlite3
-  adapter:postgresql
-  encoding:unicode
-  pool:5
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
